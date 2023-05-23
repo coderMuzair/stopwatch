@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: rgb(1, 78, 78);
+}
+span{
+    display: inline-block;
+    margin: 10px;
+    width: 80px;
+    text-align: center;
+    border: 2px solid rgb(0, 61, 56);
+}
+h1{
+    font-size: 50px;
+    color:aliceblue;
+    padding: 10px;
+}
+.btn-div{
+    flex-direction: column;
+}
+
+.btn-div button{
+    padding: 9px;
+    margin: 4px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgb(42, 41, 41);
+    font-weight: bold;
+    background-color: rgb(2, 71, 71);
+    color: aliceblue;
+}
+.btn-div button:hover{
+    background-color: rgb(1, 61, 61);
+
+}
